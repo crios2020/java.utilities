@@ -2,9 +2,11 @@ package utilities.java.text.validator;
 
 /**
  * Clase para testear la utilidad Validator.
+ *
  * @author carlos
  */
 public class TestValidator {
+
     public static void main(String[] args) {
         System.out.println(new TextValidator("Hola").length(2, 20));
         System.out.println(new TextValidator("<Hola").length(2, 20));
