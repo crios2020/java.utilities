@@ -1,13 +1,17 @@
 package utilities.java.files;
+
 import java.util.List;
+
 /**
  * Clase para testear la clase FileText.
+ *
  * @author carlos
  */
 public class TestFiles {
+
     public static void main(String[] args) {
-        String file="texto.txt";
-        I_File fText=new FileText(file);
+        String file = "texto.txt";
+        I_File fText = new FileText(file);
         //fText.setText("Curso de Java!\n");
         //fText.appendText("Hoy es Lunes!!!\n");
         //fText.addLine("Lunes.");

@@ -1,13 +1,16 @@
 package utilities.java.swing.panel;
+
 /**
  * Clase para testear la Utilidad Box
+ *
  * @author carlos
  */
 public class TestBox {
+
     public static void main(String[] args) {
         //Método .msgBox()
         //Box.msgBox("Hola Mundo!");
-        
+
         //Método .input()
         //String st=Box.input("Ingrese un String: ");
         //Box.msgBox(st);

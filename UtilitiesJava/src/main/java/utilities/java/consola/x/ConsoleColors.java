@@ -1,13 +1,16 @@
 package utilities.java.consola.x;
+
 /**
- * Clase con constantes de colores para imprimir en consola.
- * Las secuencias de escape pertenecen a colores ANSI, solo se pueden representar 8 colores
- * En Netbeans 12.4 con proyectos Maven, no funcionan las secuencias de colores.
- * Ejecutando los binarios en consola o desde un proyecto Netbeans Ant funcionan 
+ * Clase con constantes de colores para imprimir en consola. Las secuencias de
+ * escape pertenecen a colores ANSI, solo se pueden representar 8 colores En
+ * Netbeans 12.4 con proyectos Maven, no funcionan las secuencias de colores.
+ * Ejecutando los binarios en consola o desde un proyecto Netbeans Ant funcionan
  * las secuencias de colores.
+ *
  * @author carlos
  */
 public class ConsoleColors {
+
     // Reset
     public static final String RESET = "\033[0m";                       // Text Reset
 
@@ -80,5 +83,5 @@ public class ConsoleColors {
     public static final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m";// PURPLE
     public static final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  // CYAN
     public static final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m"; // WHITE
-    
+
 }
