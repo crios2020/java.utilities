@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"utilities.java.consola.x","l":"ConsoleColors"},{"p":"utilities.java.files","l":"FileText"},{"p":"utilities.java.files","l":"I_File"},{"p":"utilities.java.files","l":"TestFiles"},{"p":"utilities.java.consola.x","l":"TestX"},{"p":"utilities.java.consola.x","l":"X"}]

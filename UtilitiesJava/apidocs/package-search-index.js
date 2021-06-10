@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"utilities.java.consola.x"},{"l":"utilities.java.files"}]
