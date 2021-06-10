@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"utilities.java.consola.x"},{"l":"utilities.java.files"},{"l":"utilities.java.swing.panel"},{"l":"utilities.java.swing.validator"},{"l":"utilities.java.text"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"utilities.java.consola.x"},{"l":"utilities.java.files"},{"l":"utilities.java.swing.panel"},{"l":"utilities.java.swing.validator"},{"l":"utilities.java.text.utils"},{"l":"utilities.java.text.validator"}]

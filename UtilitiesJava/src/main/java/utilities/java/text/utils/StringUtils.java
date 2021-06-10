@@ -1,4 +1,4 @@
-package utilities.java.text;
+package utilities.java.text.utils;
 
 /**
  * Utilidad para manejo de String. La clase String de java es muy completa, pero

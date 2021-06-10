@@ -2,4 +2,5 @@ utilities.java.consola.x
 utilities.java.files
 utilities.java.swing.panel
 utilities.java.swing.validator
-utilities.java.text
+utilities.java.text.utils
+utilities.java.text.validator

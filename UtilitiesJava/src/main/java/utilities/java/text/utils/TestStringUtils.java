@@ -1,4 +1,4 @@
-package utilities.java.text;
+package utilities.java.text.utils;
 
 import utilities.java.consola.x.X;
 
