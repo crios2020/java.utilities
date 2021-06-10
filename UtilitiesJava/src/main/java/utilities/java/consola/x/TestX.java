@@ -10,7 +10,7 @@ public class TestX {
         //métodos print y println
         //X.print("hola");
         //X.println("hola");
-        X.println(ConsoleColors.BLUE+"Hola"+ConsoleColors.RESET);
+        //X.println(ConsoleColors.BLUE+"Hola"+ConsoleColors.RESET);
         
         //métodos input String
         //X.print("Ingrese un String: ");
@@ -41,8 +41,11 @@ public class TestX {
         //double dl=X.inputDouble();
         //X.println(dl);
         
-        double dl2=X.inputDouble("ingrese un double: ");
-        X.println(dl2);
+        //double dl2=X.inputDouble("ingrese un double: ");
+        //X.println(dl2);
  
+        //método request
+        //X.print(X.request("Desea un café? S o N: "));
+        
     }
 }

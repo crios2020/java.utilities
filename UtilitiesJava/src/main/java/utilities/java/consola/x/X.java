@@ -43,7 +43,8 @@ public class X {
      * @return Retorna el valor ingresado.
      */
     public static int inputInt() {
-        return Integer.parseInt(sc.nextLine());
+        try { return Integer.parseInt(sc.nextLine());
+        } catch (Exception e) { return 0; }
     }
     /**
      * Permite el ingreso de un valor int por consola.
@@ -52,14 +53,17 @@ public class X {
      */
     public static int inputInt(String message) {
         print(message);
-        return Integer.parseInt(sc.nextLine());   
+        try {
+            return Integer.parseInt(sc.nextLine()); 
+        } catch (Exception e) { return 0; }
     }
     /**
      * Permite el ingreso de un valor float por consola.
      * @return Retorna el valor ingresado.
      */
     public static float inputFloat() {
-        return Float.parseFloat(sc.nextLine());
+        try { return Float.parseFloat(sc.nextLine());
+        } catch (Exception e) { return 0; }
     }
     /**
      * Permite el ingreso de un valor float por consola.
@@ -68,14 +72,16 @@ public class X {
      */
     public static float inputFloat(String message) {
         print(message);
-        return Float.parseFloat(sc.nextLine());
+        try { return Float.parseFloat(sc.nextLine());
+        } catch (Exception e) { return 0; }
     }
     /**
      * Permite el ingreso de un valor double por consola.
      * @return Retorna el valor ingresado.
      */
     public static double inputDouble() {
-        return Double.parseDouble(sc.nextLine());    
+        try { return Double.parseDouble(sc.nextLine());  
+        } catch (Exception e) { return 0; }
     }
     /**
      * Permite el ingreso de un valor double por consola.
@@ -84,6 +90,20 @@ public class X {
      */
     public static double inputDouble(String message) {
         print(message);
-        return Double.parseDouble(sc.nextLine());
+        try { return Double.parseDouble(sc.nextLine());
+        } catch (Exception e) { return 0; }
+    }
+    /**
+     * Realiza una pregunta al usuario, El usuario debe responder S s Y y o N n  
+     * Ejemplo de uso:  
+     *          X.request("Desea un café? S o N: ");
+     * @param message Pregunta al usuario
+     * @return respuesta del usuario true en caso de (S s Y y) o false en caso de (N n)
+     */
+    public static boolean request(String message){
+        print(message);
+        String r=sc.nextLine();
+        if(r.equalsIgnoreCase("y") || r.equalsIgnoreCase("s")) return true;
+        else return false;
     }
 }
